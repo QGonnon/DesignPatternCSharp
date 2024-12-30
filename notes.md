@@ -99,3 +99,10 @@ Une sous-classe d'implementation de FabriqueVehicule est introduite pour chaque 
 FabriqueVehiculeEssence et FabriqueVehiculeElectrique .
 Une telle sous-classe implante les opérations de création du véhicule appropriée pour la famille à laquelle
 elle est associée.
+
+### le pattern Builder
+## Contexte
+Lors de l'achat d'un véhicule, plein de papiers (au format html, pdf...) sont créer/génerer et remplis avec le client et le commercial
+
+## Définition
+Son but est de séparer des documents complexes
