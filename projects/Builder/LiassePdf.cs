@@ -2,12 +2,13 @@ using System;
 
 public class LiassePdf : Liasse
 {
-  public LiassePdf() {}
+    private List<object> _documents = new List<object>();
+    public LiassePdf() {}
 
-  public void ajouteDocument(){
+    public void ajouteDocument(){
 
-  }
-  public void imprime(){
-    
-  }
+    }
+    public void imprime(){
+        
+    }
 }

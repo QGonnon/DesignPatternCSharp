@@ -2,12 +2,13 @@ using System;
 
 public class LiasseHtml : Liasse
 {
-  public LiasseHtml() {}
+    private List<object> _documents = new List<object>();
+    public LiasseHtml() {}
 
-  public void ajouteDocument(){
+    public void ajouteDocument(){
 
-  }
-  public void imprime(){
+    }
+    public void imprime(){
 
-  }
+    }
 }
