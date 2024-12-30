@@ -1,0 +1,5 @@
+C:\Users\69140\OneDrive\Desktop\Isitech\EPSI4\DesignPatternCSharp\projects\AbstractFactory\obj\Debug\net6.0\AbstractFactory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\69140\OneDrive\Desktop\Isitech\EPSI4\DesignPatternCSharp\projects\AbstractFactory\obj\Debug\net6.0\AbstractFactory.AssemblyInfoInputs.cache
+C:\Users\69140\OneDrive\Desktop\Isitech\EPSI4\DesignPatternCSharp\projects\AbstractFactory\obj\Debug\net6.0\AbstractFactory.AssemblyInfo.cs
+C:\Users\69140\OneDrive\Desktop\Isitech\EPSI4\DesignPatternCSharp\projects\AbstractFactory\obj\Debug\net6.0\AbstractFactory.csproj.CoreCompileInputs.cache
+C:\Users\69140\OneDrive\Desktop\Isitech\EPSI4\DesignPatternCSharp\projects\AbstractFactory\obj\Debug\net6.0\AbstractFactory.sourcelink.json
