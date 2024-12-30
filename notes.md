@@ -112,3 +112,7 @@ Son but est de séparer des documents complexes
 
 composition : mécanisme qui permet à une classe de contenir une instance de cette même classe ou d'une autre
 
+### le pattern Prototype
+- Création de nouveaux objets par duplication d'objets existants
+- On les appelle Prototype
+- Capacité de clonage
