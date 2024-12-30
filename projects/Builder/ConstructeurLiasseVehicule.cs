@@ -1,15 +1,8 @@
 using System;
 
-public abstract class ConstructeurLiasseVehicule
+public interface ConstructeurLiasseVehicule
 {
-  protected Liasse liasse;
-
-  public ConstructeurLiasseVehicule(Liasse liasse)
-  {
-    this.liasse = liasse;
-  }
-
-  public abstract void construitBonDeCommande();
-  public abstract void construitDemandeImmatriculation();
-  public abstract void resultat();
+  void construitBonDeCommande();
+  void construitDemandeImmatriculation();
+  void resultat();
 }

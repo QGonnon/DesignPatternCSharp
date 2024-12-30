@@ -1,9 +1,7 @@
 using System;
 
-public abstract class Liasse
+public interface Liasse
 {
-  public Liasse() {}
-
-  public abstract void ajouteDocument();
-  public abstract void imprime();
+  void ajouteDocument();
+  void imprime();
 }

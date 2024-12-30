@@ -2,16 +2,19 @@ using System;
 
 public class ConstructeurLiasseVehiculeHtml : ConstructeurLiasseVehicule
 {
+  protected Liasse liasse;
 
-  public ConstructeurLiasseVehiculeHtml(Liasse liasse) : base(liasse) {}
+  public ConstructeurLiasseVehiculeHtml(Liasse liasse) {
+    this.liasse = liasse;
+  }
 
-  public override void construitBonDeCommande(){
+  public void construitBonDeCommande(){
     
   }
-  public override void construitDemandeImmatriculation(){
+  public void construitDemandeImmatriculation(){
 
   }
-  public override void resultat(){
+  public void resultat(){
 
   }
 }

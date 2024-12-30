@@ -2,12 +2,12 @@ using System;
 
 public class LiasseHtml : Liasse
 {
-  public LiasseHtml() : base() {}
+  public LiasseHtml() {}
 
-  public override void ajouteDocument(){
+  public void ajouteDocument(){
 
   }
-  public override void imprime(){
+  public void imprime(){
 
   }
 }

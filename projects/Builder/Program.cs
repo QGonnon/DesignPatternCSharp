@@ -1,3 +1,3 @@
-﻿System.Console.WriteLine("test");
-//Vendeur vendeur;
-//ConstructeurLiasseVehicule liasse;
+﻿Console.WriteLine("Builder Pattern");
+
+Vendeur vendeur;

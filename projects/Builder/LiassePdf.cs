@@ -2,12 +2,12 @@ using System;
 
 public class LiassePdf : Liasse
 {
-  public LiassePdf() : base() {}
+  public LiassePdf() {}
 
-  public override void ajouteDocument(){
+  public void ajouteDocument(){
 
   }
-  public override void imprime(){
+  public void imprime(){
     
   }
 }
