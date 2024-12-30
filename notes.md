@@ -109,3 +109,6 @@ Le vendeur cree alors les documents de la liasse a l'aide des methodes construit
 
 ## Définition
 Son but est de séparer des documents complexes
+
+composition : mécanisme qui permet à une classe de contenir une instance de cette même classe ou d'une autre
+

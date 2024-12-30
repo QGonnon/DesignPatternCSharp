@@ -4,17 +4,21 @@ public class ConstructeurLiasseVehiculePdf : ConstructeurLiasseVehicule
 {
   protected Liasse liasse;
 
-  public ConstructeurLiasseVehiculePdf(Liasse liasse) {
-    this.liasse = liasse;
+  public ConstructeurLiasseVehiculePdf() {
+    this.liasse = new LiassePdf();
   }
 
-  public void construitBonDeCommande(){
-
+  public void construitBonDeCommande(string nomClient){
+    string document;
+    document = "<PDF>Bon de commande Client : " + nomClient + "</PDF>";
+    liasse.ajouteDocument(document);
   }
-  public void construitDemandeImmatriculation(){
-
+  public void construitDemandeImmatriculation(string nomDemandeur){
+    string document;
+    document = "<PDF>Demande d'immatriculation Demandeur : " + nomDemandeur + "</PDF>";
+    liasse.ajouteDocument(document);
   }
-  public void resultat(){
-
+  public Liasse resultat(){
+    return liasse;
   }
 }

@@ -2,6 +2,6 @@ using System;
 
 public interface Liasse
 {
-  void ajouteDocument();
+  void ajouteDocument(string document);
   void imprime();
 }
