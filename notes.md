@@ -132,6 +132,17 @@ composition : mécanisme qui permet à une classe de contenir une instance de ce
 - Les patterns de structuration encapsulent la composition des objets (augmentation du niveau d'abstraction)
 - Précédemment les patterns de création encapsulaient la création des objets.| 
 
-#### Le pattern Adapter
+### Le pattern Adapter
 - Convertis l'interface d'une classe existante en une interface attendue par ses client (afin qu'ils puissent travailler ensemble)
 - Autrement dit, c'est fournir une nouvelle interface pour répondre aux besoins de clients
+
+### Le pattern Bridge
+- Séparer l'aspect d'implémentation d'un objet de son aspect représentation et d'interface
+
+#### Exemple
+Le pattern Bridge sépare une grosse classe en deux parties qui peuvent être developpees independamment.
+
+Exemple avec une telecommande TV:
+
+- Abstraction: La telecommande (les boutons volumes, chaines, etc)
+- Implementation: Les marques de TV (Sony, Samsung, etc)
