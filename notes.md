@@ -116,3 +116,22 @@ composition : mécanisme qui permet à une classe de contenir une instance de ce
 - Création de nouveaux objets par duplication d'objets existants
 - On les appelle Prototype
 - Capacité de clonage
+
+#### Utilisation 
+- Le design pattern Prototype permet de créer des copies d'objets existants sans rendre le code dépendant de leurs classes concrètes. Au lieu de créer un objet a partir de zero, on clone un objet existant (le prototype) et on le modifie si besoin.
+- C'est comme faire une photocopie d'un document : on copie l'original et on peut modifier la copie
+- L'avantage principal est la création d'objets complexes simplifée.
+- Cas d'usage:
+    - Objets avec de nombreuses configuration ( editeur   graphique : formes geometriques)
+    - En jeux video, creation d'enemis et leur variation en   grande quantité
+    - Creation d'une configuration par defaut dans un jeu/logiciel (permet de restaurer le defaut rapidement et de configurer a nouveau)
+    - Pour eviter la creation d'objets systemes couteux : connexions reseaux, ressources partagées ...
+
+### Le pattern de Structuration 
+- Permet de faciliter l'indépendance de l'interface d'un objet vis a vis de son implementation. Dans le cas d'un ensemble d'objets, il s'agit aussi de rendre cette interface indépendante de la hierarchie des classes et de la composition des objets.
+- Les patterns de structuration encapsulent la composition des objets (augmentation du niveau d'abstraction)
+- Précédemment les patterns de création encapsulaient la création des objets.| 
+
+#### Le pattern Adapter
+- Convertis l'interface d'une classe existante en une interface attendue par ses client (afin qu'ils puissent travailler ensemble)
+- Autrement dit, c'est fournir une nouvelle interface pour répondre aux besoins de clients
