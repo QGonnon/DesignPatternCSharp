@@ -146,3 +146,10 @@ Exemple avec une telecommande TV:
 
 - Abstraction: La telecommande (les boutons volumes, chaines, etc)
 - Implementation: Les marques de TV (Sony, Samsung, etc)
+
+### Le pattern Decorator
+#### Description
+- Le but du pattern est d'ajouter dynamiquement des fonctionnalités supplémentaires à un objet. 
+- Aucune modification de l'interface de l'objet 
+- Transparent vis-à-vis des clients 
+- Une alternative à la création d'une sous-classe pour enrichir un objet.
