@@ -20,6 +20,8 @@ Questions :
 
 1. Quel pattern de conception permettrait de créer efficacement de nouveaux contrats en évitant de recréer entièrement chaque contrat à partir de zéro ?
 
+Le pattern de conception qui permettrait de créer efficacement de nouveaux contrats en évitant de recréer entièrement chaque contrat à partir de zéro est le pattern Prototype.
+
 2. Modélisez la solution à l'aide d'un diagramme de classes UML qui devra inclure :
 
    - La structure des contrats
@@ -36,3 +38,4 @@ Questions :
    - La création de multiples versions d'un même contrat
    - L'ajout d'un nouveau type de contrat
    - La modification des clauses standard
+ Ma solution permet de créer des copies d'objets existants sans rendre le code dépendant de leurs classes concrètes. Au lieu de créer un objet à partir de zéro, on clone un objet existant (le prototype) et on le modifie si besoin. C'est comme faire une photocopie d'un document : on copie l'original et on peut modifier la copie.
