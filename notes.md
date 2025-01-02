@@ -153,3 +153,6 @@ Exemple avec une telecommande TV:
 - Aucune modification de l'interface de l'objet 
 - Transparent vis-à-vis des clients 
 - Une alternative à la création d'une sous-classe pour enrichir un objet.
+
+### Le pattern Command
+Command permet de transformer une requête en un objet, ce qui facilite les opérations comme les annulations ou les « retour en arrière », ou encore les mises en file d'attente des demandes et leur suivi.
