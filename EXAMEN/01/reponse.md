@@ -5,7 +5,7 @@ La gestion est entièrement faite dans la classe RapportIncident avec des propri
 On devrait ajouter de nouveaux booléens, méthodes et conditions dans GetContenu afin d'ajouter un nouveau traitement.
 
 # Quel problème pose l'ajout de multiples traitements combinés ?
-L'ajout de multiples traitements combinés alourdit la classe et le code existant.
+L'ajout de multiples traitements combinés alourdit la classe et le code existant. Rendant la lecture et la compréhension de la classe plus difficile.
 
 # En observant le diagramme de classes fourni, identifiez: le composant de base, les decorateurs, les relations entre les composants.
 composant de base : RapportIncident
@@ -16,7 +16,7 @@ relations entre les composants:
 - RapportDecorator contient une référence à IRapport (composition)
 
 # Pourquoi utilise-t-on une interface IRapport ?
-L'interface IRapport permet de traiter tous les types de rapports et décorateurs de manière uniforme.
+L'interface IRapport permet de donner à tous les types de rapports et décorateurs une structure uniforme.
 
 # Quel est le role de la classe abstraite RapportDecorator ?
 La classe abstraite RapportDecorator sert de base pour tous les décorateurs de rapports.
@@ -151,7 +151,7 @@ Console.WriteLine($"Contenu: {rapport.GetContenu()}");
 ```
 
 # Comment l'ordre des décorateurs affecte-t-il le résultat final ?
-L'ordre dans lequel on applique les décorateurs affecte le résultat final car chaque décorateur modifie le contenu ou l'auteur du rapport avant que le suivant n'y ajoute ses propres modifications.
+Oui, l'ordre affecte le résultat final car chaque décorateur modifie le contenu ou l'auteur du rapport avant que le suivant n'y ajoute ses propres modifications.
 
 # Donnez un exemple concret où l'ordre des décorateurs est important.4
-Anonymiser les données (identifiant, mot de passe) avant de les chiffrer fonctionne de la manière souhaité. Cependant, l'ordre contraire où l'on chiffre avant d'anonymiser, rendrait l'anonymisation inefficace car les données seraient déjà illisibles et on ne saurait pas quoi anonymiser.
+Anonymiser les données (identifiant, mot de passe) avant de les chiffrer fonctionne de la manière souhaité. Cependant, l'ordre contraire où l'on chiffre avant d'anonymiser, rendrait l'anonymisation inefficace car les données seraient déjà illisibles et on ne saurait quoi anonymiser.
