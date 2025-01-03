@@ -15,6 +15,8 @@ Questions :
    - Maintenance
    - Couplage entre les composants
 
+le code existant est rigide et difficile à maintenir. Il est difficile d'ajouter de nouveaux types de notifications ou de nouvelles plateformes d'envoi sans modifier le code existant. De plus, la duplication de code est évidente, car chaque type de notification est implémenté dans une classe distincte, ce qui entraîne une explosion combinatoire des classes.
+
 2. Quel pattern de conception permettrait de :
    - Séparer les types de notifications de leurs implémentations
    - Permettre l'évolution indépendante des deux aspects
